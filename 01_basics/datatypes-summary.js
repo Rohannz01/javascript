@@ -37,3 +37,33 @@ const myfunction = function(){
 
 }
 
+
+
+
+//++++++++++++++++++++++++++++++++++++++++
+
+// Stack memory(Primitive), Heap memory(Non-Primitive)
+
+let myYoutubename = "RohanMankar"
+
+let anothername = myYoutubename
+anothername = "MankarRohan"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+// this was an example of stack memory
+
+let userone = {
+    email: "Rohan@google.com",
+    upi:  "rohan@ybl"
+}
+ let usertwo = userone
+
+ usertwo.email = "mankar@google.com"
+
+ console.log(userone.email);
+ console.log(usertwo.email);
+
+ // this is a example of heap memory
+ 
